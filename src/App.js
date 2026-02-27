@@ -649,8 +649,8 @@ export default function App() {
     confirm: false,
   });
 
-  const [email, setEmail] = useState("ahmet@test.com");
-  const [password, setPassword] = useState("123");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [selectedRole, setSelectedRole] = useState("CLIENT");
