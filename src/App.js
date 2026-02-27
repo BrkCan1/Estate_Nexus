@@ -613,7 +613,6 @@ const ImageGallery = ({ images }) => {
             }}
           />
         ))}
-        ))}
       </div>
     </div>
   );
